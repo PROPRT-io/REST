@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-// SOurce: OpenZeppelin Contracts v4.4.1 (utils/cryptography/draft-EIP712.sol)
+// source: OpenZeppelin Contracts v4.4.1 (utils/cryptography/draft-EIP712.sol)
 
 pragma solidity ^0.8.4;
 

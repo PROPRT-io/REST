@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-// Source: OpenZeppelin Contracts (last updated v4.7.0) (utils/math/Math.sol)
+// source: OpenZeppelin Contracts (last updated v4.7.0) (utils/math/Math.sol)
 
 pragma solidity ^0.8.4;
 

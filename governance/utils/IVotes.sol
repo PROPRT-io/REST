@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-// Source: OpenZeppelin Contracts (last updated v4.5.0) (governance/utils/IVotes.sol)
+// source: OpenZeppelin Contracts (last updated v4.5.0) (governance/utils/IVotes.sol)
 pragma solidity ^0.8.4;
 
 /**
