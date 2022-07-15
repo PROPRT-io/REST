@@ -18,6 +18,10 @@ contract RealEstate is ERC20, Pausable, Ownable, ERC20Permit, ERC20Votes {
     constructor() ERC20("Real Estate", "REST") ERC20Permit("Real Estate") {
         _mint(msg.sender, 100000000 * 10 ** decimals());
     }
+    
+    function decimals() public view override returns (uint8) {
+		return 0;
+	}
 
     function pause() public onlyOwner {
         _pause();
