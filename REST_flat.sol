@@ -1,5 +1,4 @@
-
-// File: @openzeppelin/contracts/utils/math/SafeCast.sol
+// SPDX-License-Identifier: MIT
 
 
 // OpenZeppelin Contracts (last updated v4.7.0) (utils/math/SafeCast.sol)
@@ -3034,8 +3033,9 @@ pragma solidity ^0.8.4;
 
 
 
+
 contract RealEstate is ERC20, Pausable, Ownable, ERC20Permit, ERC20Votes {
-    constructor() ERC20("RealEstate", "REST") ERC20Permit("RealEstate") {
+    constructor() ERC20("Real Estate", "REST") ERC20Permit("Real Estate") {
         _mint(msg.sender, 100000000 * 10 ** decimals());
     }
 
